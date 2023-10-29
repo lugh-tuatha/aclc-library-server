@@ -2,7 +2,7 @@
   "name": "aclc-library-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon src/server"
@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
+    "firebase-admin": "^11.11.0",
     "mongoose": "^7.5.0"
   }
 }
